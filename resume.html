@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Resumes</title>
 </head>
 <body>
 
     <header>
   <a href = "#main-content" class="skip-link">Skip to Main Content</a>
+        <div class = "header-container">
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <h1>Resume Support</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
-                <li><a href = "resume.html">Resumes</a></li>
-                <li><a href="Networking_and_Connections.html">Networking & Connections</a></li>
-                <li><a href="Internship_Search.html">Internship Search</a></li>
+                <li><a href = "resume.html" style="font-weight: bold">Resumes</a></li>
+                <li><a href="networking_and_connections.html">Networking & Connections</a></li>
+                <li><a href="internship_search.html">Internship Search</a></li>
             </ul>
         </nav>
-        <h1>Resume Support</h1>
+        
 
     </header>
 
@@ -36,7 +41,7 @@
     </p>
   </section>
   
-  <section>
+  <section class="resume-steps">
     <h2>Resume Writing Made Easy: Steps to Success</h2>
     <ol>
       <li><strong>Download a UMSI-Approved Template:</strong> Start with a format that works—no need to design from scratch.</li>
@@ -83,7 +88,7 @@
     </p>
   </section>
 
-  <section>
+  <section class="one-chunk">
     <h2>Resume FAQ</h2>
     <ul>
       <li>
@@ -98,10 +103,10 @@
         <strong>Is it okay to include coursework or student projects?</strong><br>
         Absolutely! UMSI coursework and projects are valued by employers, especially if they show relevant skills and impact.
       </li>
-      <li>
+      <!-- <li>
         <strong>How often should I update my resume?</strong><br>
         Update your resume every semester, after major projects, or whenever you gain a new role or responsibility.
-      </li>
+      </li> -->
     </ul>
   </section>
           <!-- Content taken & modified from UMGPT with the prompt, "for the same content write me some intro content and resources for a resume page" - this was after I had asked for content for the home page.
@@ -110,7 +115,9 @@
     </main>
     <footer>
         <p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a></p>
-        </footer>
+        <p>Contact Information: umsi.careers@umich.edu</p>
+        <p>© Copyrights <span id="year"></span> by University of Michigan. All rights reserved.</p>
+      </footer>
     
 </body>
 
