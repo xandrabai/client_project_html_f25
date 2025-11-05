@@ -277,9 +277,14 @@ footer a:hover {
     font-size: 18px;
   }
 
+  /* Active nav link styling added for JS highlighting */
+  header nav a.active,
+  header nav a[aria-current="page"] {
+    font-weight: 800;
+  }
+
   /* Higher-specificity override for full-width centering */
   main{
-    /* ensure this rule wins over earlier `main > section` rules */
     grid-column: 1 / -1;
     display: flex;
     flex-direction: column;
@@ -290,7 +295,6 @@ footer a:hover {
     padding: 2rem 2rem;
   }
 
-  /* Make video or images inside this section responsive and centered */
   main iframe{
     width: 100%;
     max-width: 560px;
